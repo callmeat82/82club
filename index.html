@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>82MAJOR High School — Cho Seongil Dress Up</title>
+<meta name="description" content="Style Cho Seongil in a pixel wardrobe of school uniforms, streetwear, varsity layers and more.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23cbd489' d='M0 0h32v32H0z'/%3E%3Ctext x='3' y='24' font-family='monospace' font-size='24' font-weight='bold' fill='%23232620'%3E82%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="window">
+ <div class="titlebar"><span><b class="tiny-mark">82</b> MAJOR / DRESS-UP CLUB</span><span class="window-controls" aria-hidden="true">━ &nbsp; □ &nbsp; ×</span></div>
+ <header><div class="brand"><span class="eyebrow">AFTER SCHOOL, YOUR RULES.</span><h1>82MAJOR <span>HIGH SCHOOL</span></h1></div><div class="edition">CHARACTER SELECT<br><strong>VOL. 01 / SEONGIL</strong></div></header>
+ <div class="workspace">
+ <aside class="sidebar"><div class="section-label"><span>01</span> STYLE CLUB</div><h2>Pick your<br>attitude.</h2><p class="hint">Start with a look.<br>Make it your own.</p><div id="presets" class="presets"></div><div class="club-stamp"><b>82</b><span>HIGH SCHOOL<br>DRESS-UP CLUB</span></div><p class="sidebar-note">CLASS OF YOUR OWN</p></aside>
+ <section class="character-panel" aria-label="Character preview"><div class="panelbar"><span>CHO SEONGIL</span><span class="live-label">PLAYER 01</span></div><div class="stage"><span class="stage-tag">THE FIT CHECK</span><div class="cross cross-a" aria-hidden="true">+</div><div class="cross cross-b" aria-hidden="true">+</div><span class="vertical-label" aria-hidden="true">82MAJOR HIGH SCHOOL</span><div class="doll-wrap"><canvas id="doll" width="256" height="512" role="img" aria-label="Cho Seongil wearing the selected outfit"></canvas><p id="loading">Opening the wardrobe…</p></div><div class="ground" aria-hidden="true"></div><div class="stage-bottom"><span>STUDENT NO. 082</span><span>★ ★ ★</span></div></div><div class="character-info"><div><span class="eyebrow">NAME</span><strong>Cho Seongil</strong></div><div><span class="eyebrow">CURRENT STYLE</span><strong id="style-name">School rebel</strong></div></div><div class="stage-actions"><button id="random" class="button primary">↝ &nbsp; Random look</button><button id="reset" class="button">↺ &nbsp; Reset</button></div></section>
+ <section class="wardrobe" aria-label="Clothing selection"><div class="section-label"><span>02</span> THE WARDROBE <b id="item-count">06 ITEMS</b></div><div class="categories" role="group" aria-label="Clothing categories"></div><div class="closet-heading"><h2 id="category-title">Hairstyles</h2><span>MIX. MATCH. REPEAT.</span></div><div id="items" class="items"></div><div class="selection-note"><span class="selection-square">✓</span><div><span class="eyebrow">NOW WEARING</span><strong id="selected-label">Silver curtains</strong></div></div><p class="closet-tip">Choose an item to try it on.</p></section>
+ </div><footer><span><b>82</b> &nbsp; YOUR WARDROBE. YOUR REPUTATION.</span><span id="status" role="status" aria-live="polite">Ready for the schoolyard.</span></footer>
+</main><script src="app.js"></script></body></html>
